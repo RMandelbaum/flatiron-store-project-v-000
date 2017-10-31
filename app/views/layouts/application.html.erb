@@ -8,9 +8,11 @@
   <%= analytics_init if Rails.env.production? %>
 </head>
 <body>
+  <div class="container">
+
 
 <%= render 'layouts/header' %>
 <%= yield %>
-
+</div>
 </body>
 </html>

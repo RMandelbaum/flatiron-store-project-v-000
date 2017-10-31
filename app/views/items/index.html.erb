@@ -1,0 +1,8 @@
+
+<div class = "field">
+  <ol>
+<%@items.each do |item| %>
+<li><%= link_to item.title, item_path(item) %> - $<%= item.get_price %></li>
+<% end %>
+</ol>
+</div>

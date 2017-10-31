@@ -1,3 +1,37 @@
 // Place all the styles related to the store controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container{
+  margin: 10px;
+}
+
+.home{
+    margin: 10px;
+    font-size: 50px;
+    font-family: Arial;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+
+}
+
+.nav{
+  display: inline-block;
+  font-size: 20px;
+}
+
+.category{
+  display: flex;
+  font-weight: bold;
+
+  text-align: center;
+}
+
+.item{
+  padding: 20px 0 15px 0;
+  column-count: 2;
+  display: inline-block;
+
+}
